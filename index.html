@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="og:title" content="미션! 발렌타인">
+    <meta property="og:image" content="https://png.pngtree.com/png-vector/20211228/ourlarge/pngtree-valentines-day-with-envelope-shape-png-image_4132949.png">
+    <meta property="og:description" content="발렌타인 스몰 이벤트">
+    <title>미션! 발렌타인</title>
+    <style>
+        @font-face {
+            font-family: 'NanumSquareNeo-Variable';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @media  (max-width:768px){
+           .title{
+               font-size: 22px !important;
+           }
+        }
+        html,
+        body {
+            font-family: 'NanumSquareNeo-Variable';
+            position: relative;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .title{
+            height:50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            background: white;
+        }
+
+        swiper-container {
+            width: 100%;
+            height:calc(100% - 50px);
+
+        }
+        swiper-button-next::after,
+        swiper-button-prev::after {
+           color: #b26868 !important;
+        }
+
+
+        swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+
+
+        }
+
+        .swiper-button-next:after, .swiper-button-prev:after{
+            font-size: 12px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+<div class="title">좌 우로 화면을 넘길 수 있어요</div>
+<swiper-container class="mySwiper" navigation="true">
+    <swiper-slide>
+        <img src="image/11.jpeg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+        <img src="image/10.jpeg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+        <img src="image/1.jpeg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+        <img src="image/2.jpeg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+        <img src="image/3.jpeg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+        <img src="image/4.jpeg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+        <img src="image/5.jpeg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+        <img src="image/6.jpeg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+        <img src="image/7.jpeg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+        <img src="image/8.jpeg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+        <img src="image/9.jpeg" alt="">
+    </swiper-slide>
+
+</swiper-container>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+</body>
+
+</html>
